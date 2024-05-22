@@ -53,22 +53,34 @@ input{
   position: relative;
   width: 100%;
 }
- img{
+ .container-name img{
  position: absolute;
- right: -7%;
+ right: -5%;
  bottom: 28%;
  opacity: 0.5;
-}
+} /*.container-email*/
 .container-email{
    position: relative;
    width: 100%;
 }
 .container-email img{
    position: absolute;
-   right: -7%;
+   right: -5%;
    bottom: 28%;
    opacity: 0.5;
 }
+.container-senha {
+  position: relative;
+  width: 100%;
+}
+.container-senha img {
+  position: absolute;
+  right: -5%;
+  bottom: 28%;
+  opacity: 0.5;
+
+}
+
 
 .botao2{
 width: 50%;
