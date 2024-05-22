@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=M+PLUS+Rounded+1c&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  height: 100vh;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+} 
+.container-left{
+  width: 50%;
+  background-color: rgb(255, 158, 123);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.container-right{
+  width: 50%;
+  background-color: rgb(252, 199, 179);
+  color: rgb(255, 158, 123);;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+form {
+ width: 48%;
+ padding: 10px;
+}
+input{
+  width:100%;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.container-name{
+  position: relative;
+  width: 100%;
+}
+ img{
+ position: absolute;
+ right: -7%;
+ bottom: 28%;
+ opacity: 0.5;
+}
+.container-email{
+   position: relative;
+   width: 100%;
+}
+.container-email img{
+   position: absolute;
+   right: -7%;
+   bottom: 28%;
+   opacity: 0.5;
+}
+
+.botao2{
+width: 50%;
+margin-left: 30%;
+margin-top: 10px;
+background-color: rgb(255, 158, 123);
+color:white;
+border-color: white;
+border-radius: 5px;
+border: none;
+padding: 5px;
+
+
+}
+.botao1{
+  width: 25%;
+  margin-left:0%;
+  background-color: rgb(255, 158, 123);
+  color:white;
+  border-color: white;
+  border: solid;
+  padding: 10px ; 
+  border-radius: 10px;
+  margin: 25px;
+  font-size: 15px;
+}
+
